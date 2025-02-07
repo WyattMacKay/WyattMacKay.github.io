@@ -1,73 +1,51 @@
 <!--
     Add hover and click alternatives for buttons.
 -->
-<style> 
-    html {
-        background-color: #232323;
-        color: #EDEDED;
-        font-size: 20px;
-    }
 
-    .top-button {
-        background-color: #333333; 
-        color: #EDEDED;
-        padding: 10px 10px;
-        text-align: center;
-        display: inline-block;
-        font-size: 40px;
-        border: 2px solid black;
-        border-radius: 12px;
-        width: 160px; 
-        height: 80px;
-    }
+<!DOCTYPE html>
+    <html>
+        <head>
+            <link rel = "stylesheet" href = "style.css">
+        </head>
+        <div style = "width: 100%; display: flex; align-items: center; border-radius: 20px;
+                    border-bottom: 5px solid #333333">
+            <button class = "logo-button">
+                <img src = "WMD-White.png" alt = "Home" style = "width: 164px; height: 100px;">
+            </button>
 
-    .logo-button {
-        background-color: transparent;
-        border-color: transparent;
-        width: 200px;
-        height: 120px;
-    }
+            <div style = "display: flex; gap: 8%; justify-content: right; align-content: baseline; 
+                        width: 80%;">
 
-    .body-image {
-        object-fit: cover;
-        aspect-ratio: 1/1;
-        width: 30%;
-    }
+                <button class = "top-button">
+                    About
+                </button>
 
-    .body-row {
-        padding-left: 5%; 
-        padding-right: 5%; 
-        padding-top: 5%
-    }
-</style>
+                <button class = "top-button">
+                    Games
+                </button>
 
-<div style = "gap: 10px; width: 100%; display: flex; align-items: center; border-radius: 20px;
-            border-bottom: 5px solid #333333">
-    <button class = "logo-button">
-        <img src = "WMD-White.png" alt = "Home" style = "width: 164px; height: 100px;">
-    </button>
-
-    <div style = "display: flex; gap: 100px; justify-content: right; align-content: baseline; width: 75%;">
-        <button class = "top-button">
-            About
-        </button>
-
-        <button class = "top-button">
-            Games
-        </button>
-
-        <button class = "top-button">
-            Other
-        </button>
-    </div>
-</div>
+                <button class = "top-button">
+                    Other
+                </button>
+            </div>
+        </div>
 
 
-<div class = "body-row">
-    <img src = me.png class = "body-image" style = "object-position: top;">
-
-    <p>
-        It's so over.
-    </p>
-</div>
+        <div class = "body-row">
+            <img src = me.png class = "body-image" style = "object-position: top;">
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla gravida turpis nulla, vel
+                tempor quam tincidunt a. Maecenas eget metus viverra, vehicula ligula eget, vestibulum 
+                eros. Aliquam gravida sapien quis nunc lacinia, a interdum purus feugiat. Duis in orci bibendum
+                purus ultrices tincidunt vel et nisl. Suspendisse molestie neque tortor, non fermentum purus 
+                commodo et. Curabitur commodo efficitur nibh ut iaculis. Sed semper at odio eu facilisis.
+                <br><br> 
+                Pellentesque consectetur venenatis sollicitudin. Cras at augue tellus. Quisque convallis 
+                euismod mi, sit amet dignissim arcu egestas eget. Nullam ut posuere arcu. Mauris sed elit
+                a erat pellentesque scelerisque. Cras sit amet purus dui. Sed pellentesque felis feugiat 
+                velit fringilla, quis luctus ante fringilla. Pellentesque lacinia turpis at sapien tempus, 
+                sagittis convallis nisi pretium. Donec non malesuada elit, non dignissim arcu.
+            </p>
+        </div>
+    </html>
 
