@@ -28,12 +28,12 @@ html {
     object-fit: cover;
     aspect-ratio: 1/1;
     width: 30%;
+    border-radius: 15%;
 }
 
 .body-row {
     padding: 5%;
+    padding-top: 0%;
     width: 90%; display: flex; 
-    align-items: center; 
-    border-radius: 20px;
     gap: 5%;
 }
