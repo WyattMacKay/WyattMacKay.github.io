@@ -1,0 +1,47 @@
+html {
+    background-color: #232323;
+    color: #EDEDED;
+    font-size: 20px;
+}
+
+.top-button {
+    background-color: #333333; 
+    color: #EDEDED;
+    text-align: center;
+    display: inline-block;
+    font-size: 200%;
+    border: 2px solid black;
+    border-radius: 12px;
+    aspect-ratio: 7/4;
+    width: 16%;
+}
+
+.logo-button {
+    background-color: transparent;
+    border-color: transparent;
+    width: 200px;
+    height: 120px;
+    padding-left: 5%;
+}
+
+.body-image {
+    object-fit: cover;
+    aspect-ratio: 1/1;
+    width: 30%;
+    border-radius: 15%;
+}
+
+.body-row {
+    padding: 5%;
+    padding-top: 0%;
+    width: 90%; display: flex; 
+    gap: 5%;
+}
+
+.header-footer {
+    width: 100%; 
+    display: flex; 
+    align-items: center; 
+    border-radius: 20px;
+    background-color: #191919;
+}
