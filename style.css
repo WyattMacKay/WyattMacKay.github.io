@@ -12,8 +12,9 @@ html {
     font-size: 200%;
     border: 2px solid black;
     border-radius: 12px;
-    aspect-ratio: 7/4;
+    /* aspect-ratio: 7/4; */
     width: 16%;
+    text-decoration: none;
 }
 
 .logo-button {
