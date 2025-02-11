@@ -38,10 +38,49 @@ html {
     gap: 5%;
 }
 
-.header-footer {
+.header {
     width: 100%; 
     display: flex; 
     align-items: center; 
     border-radius: 20px;
     background-color: #191919;
+    border-bottom: 5px solid #333333;
+}
+
+.footer {
+    width: 100%; 
+    display: flex; 
+    align-items: center; 
+    border-radius: 20px;
+    background-color: #191919;
+    border-top: 5px solid #333333; 
+    height: 100%; 
+    flex-direction: column;
+}
+
+.footer-column {
+    display: flex;
+    flex-direction: column;
+    width: 20%; 
+    align-items: center;
+}
+
+.footer-image {
+    aspect-ratio: 1/1;
+    width: 10%;
+}
+
+.footer-body {
+    display: flex; 
+    gap: 8%; 
+    width: 95%; 
+    justify-content: center;
+    font-size: 75%; 
+    padding: 3%; 
+    flex-basis: 100%;
+}
+
+.footer-column-title {
+    font-size: x-large; 
+    padding-bottom: 2%;
 }
