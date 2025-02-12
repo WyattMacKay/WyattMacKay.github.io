@@ -1,5 +1,6 @@
 <!--
     Add hover and click alternatives for buttons.
+    Make mobile friendly.
 -->
 <!--
     I know how to make comments... You should give me a job!
@@ -9,6 +10,7 @@
 <html>
 
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css">
     <title>
         Wyatt MacKay
@@ -16,7 +18,7 @@
     <link rel="icon" href="WMD.png">
 </head>
 
-<div class="header-footer" style="border-bottom: 5px solid #333333;">
+<div class="header">
     <button class="logo-button">
         <img src="WMD-White.png" alt="Home" style="width: 164px; height: 100px;">
     </button>
@@ -25,10 +27,10 @@
             About
         </button>
 
-        <button class="top-button">
+        <a href="/games.html" class="top-button">
+            
             Games
-        </button>
-
+        </a>
         <button class="top-button">
             Other
         </button>
@@ -70,12 +72,37 @@
     </div>
 </div>
 
-<footer class="header-footer" style="border-top: 5px solid #333333;">
-    <div style="display: flex; gap: 8%; width: 80%; font-size: 75%; padding-left: 3%;">
-        <p>
-            Contact: WyattMacKayDawson@outlook.com
-        </p>
+<footer class="footer">
+    <div class="footer-body">
+        <div class="footer-column">
+            <b class="footer-column-title">
+                Contact
+            </b>
+            <p>
+                WyattMacKayDawson@outlook.com
+            </p>
+            <div style="display: inline-block; text-align: center;">
+                <a href="https://www.linkedin.com/in/wyatt-mackay/">
+                    <img src="linkedin.png" alt="My LinkedIn" class="footer-image">
+                </a>
+                <a href="https://www.github.com/wyattmackay/">
+                    <img src="github.png" alt="My GitHub" class="footer-image">
+                </a>
+                <a href="mailto:wyattmackaydawson@outlook.com">
+                    <img src="email.png" alt="My Email" class="footer-image">
+                </a>
+            </div>
+        </div>
+        <div class="footer-column">
+            <b class="footer-column-title">
+                Leave a Message
+            </b>
+        </div>
+        <div class="footer-column">
+            <b class="footer-column-title">
+                Boost my Ego
+            </b>
+        </div>
     </div>
 </footer>
-
 </html>
