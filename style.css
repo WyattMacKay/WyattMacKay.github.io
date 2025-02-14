@@ -114,6 +114,11 @@ li {
     flex-direction: column;
 }
 
+.bottom-button-container {
+    display: inline-block; 
+    text-align: center;
+}
+
 .footer-column {
     display: flex;
     flex-direction: column;
@@ -121,9 +126,13 @@ li {
     align-items: center;
 }
 
-.footer-image {
+.footer-icon {
     aspect-ratio: 1/1;
     width: 10%;
+}
+
+.footer-image {
+    width: 75%;
 }
 
 .footer-body {
