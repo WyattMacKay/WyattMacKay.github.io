@@ -1,6 +1,7 @@
 <!--
     Add hover and click alternatives for buttons.
     Make mobile friendly.
+    Consider changing "About Me" to "I Am..." (ex. A Student)
 -->
 <!--
     I know how to make comments... You should give me a job!
@@ -15,12 +16,12 @@
     <title>
         Wyatt MacKay
     </title>
-    <link rel="icon" href="WMD.png">
+    <link rel="icon" href="assets/WMD.png">
 </head>
 
 <div class="header">
     <a href="/" class="logo-button">
-        <img src="WMD-White.png" alt="Home">
+        <img src="assets/WMD-White.png" alt="Home">
     </a>
     <div class="top-button-container">
         <a href="/" class="top-button">
@@ -36,39 +37,51 @@
         </a>
     </div>
 </div>
-
 <div class="body-column">
+    <h1>I Am...</h1>
     <div class="body-row">
-        <img src=me.png class="body-image">
-        <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla gravida turpis nulla, vel
-            tempor quam tincidunt a. Maecenas eget metus viverra, vehicula ligula eget, vestibulum
-            eros. Aliquam gravida sapien quis nunc lacinia, a interdum purus feugiat. Duis in orci bibendum
-            purus ultrices tincidunt vel et nisl. Suspendisse molestie neque tortor, non fermentum purus
-            commodo et. Curabitur commodo efficitur nibh ut iaculis. Sed semper at odio eu facilisis.
-            <br><br>
-            Pellentesque consectetur venenatis sollicitudin. Cras at augue tellus. Quisque convallis
-            euismod mi, sit amet dignissim arcu egestas eget. Nullam ut posuere arcu. Mauris sed elit
-            a erat pellentesque scelerisque. Cras sit amet purus dui. Sed pellentesque felis feugiat
-            velit fringilla, quis luctus ante fringilla. Pellentesque lacinia turpis at sapien tempus,
-            sagittis convallis nisi pretium. Donec non malesuada elit, non dignissim arcu.
-        </p>
+        <img src="assets/me.png" class="body-image">
+        <div class="body-row-text-container">
+            <h2>A Student</h2>
+            <p>
+                I'm a second year Computer Science student at the <b>University of New Brunswick</b>
+                and a graduate from <b>Oromocto High School</b>. <br><br>
+                Some notable courses I've taken are:
+                <ul>
+                    <li>
+                        <b>CS2043: Intro to Software Engineering</b> - A course made to simulate working 
+                        as a Software Engineer in the real world; Working with a team and being AGILE to
+                        get a product to specifications and out on time.
+                    </li>
+                    <li>
+                        <b>CS2263: Systems Software Development</b> - A programming course in the C 
+                        language. Strengthens the concepts of non-object-oriented procedural programming.
+                    </li>
+                    <li>
+                        <b>CS1103: Introduction to Databases</b> - A databases course using MySQL. Applying
+                        theory to real-world scenarios. Fundamentals of security, privacy, and maintanence 
+                        for a database.
+                    </li>
+                </ul>
+            </p>
+        </div>
     </div>
     <div class="body-row">
-        <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla gravida turpis nulla, vel
-            tempor quam tincidunt a. Maecenas eget metus viverra, vehicula ligula eget, vestibulum
-            eros. Aliquam gravida sapien quis nunc lacinia, a interdum purus feugiat. Duis in orci bibendum
-            purus ultrices tincidunt vel et nisl. Suspendisse molestie neque tortor, non fermentum purus
-            commodo et. Curabitur commodo efficitur nibh ut iaculis. Sed semper at odio eu facilisis.
-            <br><br>
-            Pellentesque consectetur venenatis sollicitudin. Cras at augue tellus. Quisque convallis
-            euismod mi, sit amet dignissim arcu egestas eget. Nullam ut posuere arcu. Mauris sed elit
-            a erat pellentesque scelerisque. Cras sit amet purus dui. Sed pellentesque felis feugiat
-            velit fringilla, quis luctus ante fringilla. Pellentesque lacinia turpis at sapien tempus,
-            sagittis convallis nisi pretium. Donec non malesuada elit, non dignissim arcu.
-        </p>
-        <img src=fishing.jpg class="body-image">
+        <div class="body-row-text-container">
+            <h2>
+                A Hobbyist
+            </h2>
+            <p>
+                I aspire to be a software developer, but for now developing is just a hobby for me. I made
+                this website in my free time, as well as the web games shown on my page.<br><br>
+                Most of this is just my practice with Git, VSCode, and other tools. I enjoy developing 
+                in my free time. It keeps my mind busy and sharp. <br><br>
+                I love to learn new things, so I tend to dabble in different languages and development 
+                tools. While I'm most proficient with Java and C++, I also know a bit of C#, JavaScript,
+                Python, and clearly HTML & CSS.
+            </p>
+        </div>
+        <img src="assets/fishing.jpg" class="body-image">
     </div>
 </div>
 
@@ -79,17 +92,17 @@
                 Contact
             </b>
             <p>
-                WyattMacKayDawson@outlook.com
+                contact@wyattmackay.com
             </p>
-            <div style="display: inline-block; text-align: center;">
+            <div class="bottom-button-container">
                 <a href="https://www.linkedin.com/in/wyatt-mackay/">
-                    <img src="linkedin.png" alt="My LinkedIn" class="footer-image">
+                    <img src="assets/linkedin.png" alt="My LinkedIn" class="footer-icon">
                 </a>
                 <a href="https://www.github.com/wyattmackay/">
-                    <img src="github.png" alt="My GitHub" class="footer-image">
+                    <img src="assets/github.png" alt="My GitHub" class="footer-icon">
                 </a>
-                <a href="mailto:wyattmackaydawson@outlook.com">
-                    <img src="email.png" alt="My Email" class="footer-image">
+                <a href="mailto:contact@wyattmackay.com">
+                    <img src="assets/email.png" alt="My Email" class="footer-icon">
                 </a>
             </div>
         </div>
@@ -97,11 +110,13 @@
             <b class="footer-column-title">
                 Leave a Message
             </b>
+            <img src="assets/construction.png" class="footer-image">
         </div>
         <div class="footer-column">
             <b class="footer-column-title">
                 Boost my Ego
             </b>
+            <img src="assets/construction.png" class="footer-image">
         </div>
     </div>
 </footer>
