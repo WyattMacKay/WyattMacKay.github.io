@@ -32,6 +32,10 @@ li {
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
+.top-button:hover {
+    background-color: #383838; 
+}
+
 .top-button-container {
     display: flex; 
     gap: 8%; 
@@ -78,6 +82,10 @@ li {
     position: absolute;
     bottom: 0;
     left: 50%;
+}
+
+.play-button:hover {
+    background-color: #1a701e; 
 }
 
 .body-column {
@@ -150,13 +158,13 @@ li {
     padding-bottom: 2%;
 }
 
-/* Scrollbar*/
+/* Scrollbar */
 ::-webkit-scrollbar {
     width: 10px;
   }
   
   ::-webkit-scrollbar-track {
-    box-shadow: inset 0 0 10px #383838; 
+    box-shadow: inset 0 0 30px #333333; 
     border-radius: 10px;
   }
    
