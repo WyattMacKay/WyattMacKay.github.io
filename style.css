@@ -1,7 +1,15 @@
 html {
     background-color: #232323;
     color: #EDEDED;
-    font-size: 20px;
+    font-size: larger;
+}
+
+ul {
+    font-size: medium;
+}
+
+li {
+    margin-bottom: 2%;
 }
 
 .top-button {
