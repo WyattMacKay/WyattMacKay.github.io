@@ -1,7 +1,7 @@
 <!--
     Add hover and click alternatives for buttons.
     Make mobile friendly.
-    Consider having dark box around texts.
+    Consider changing "About Me" to "I Am..." (ex. A Student)
 -->
 <!--
     I know how to make comments... You should give me a job!
@@ -16,12 +16,12 @@
     <title>
         Wyatt MacKay
     </title>
-    <link rel="icon" href="WMD.png">
+    <link rel="icon" href="assets/WMD.png">
 </head>
 
 <div class="header">
     <a href="/" class="logo-button">
-        <img src="WMD-White.png" alt="Home">
+        <img src="assets/WMD-White.png" alt="Home">
     </a>
     <div class="top-button-container">
         <a href="/" class="top-button">
@@ -38,18 +38,16 @@
     </div>
 </div>
 <div class="body-column">
-    <h1>About Me</h1>
+    <h1>I Am...</h1>
     <div class="body-row">
-        <img src=me.png class="body-image">
-        <div>
-            <h2>
-                Student
-            </h2>
+        <img src="assets/me.png" class="body-image">
+        <div class="body-row-text-container">
+            <h2>A Student</h2>
             <p>
                 I'm a second year Computer Science student at the <b>University of New Brunswick</b>
                 and a graduate from <b>Oromocto High School</b>. <br><br>
                 Some notable courses I've taken are:
-                <ul class="bullet-points">
+                <ul>
                     <li>
                         <b>CS2043: Intro to Software Engineering</b> - A course made to simulate working 
                         as a Software Engineer in the real world; Working with a team and being AGILE to
@@ -69,9 +67,9 @@
         </div>
     </div>
     <div class="body-row">
-        <div>
+        <div class="body-row-text-container">
             <h2>
-                Hobbyist
+                A Hobbyist
             </h2>
             <p>
                 I aspire to be a software developer, but for now developing is just a hobby for me. I made
@@ -83,7 +81,7 @@
                 Python, and clearly HTML & CSS.
             </p>
         </div>
-        <img src=fishing.jpg class="body-image">
+        <img src="assets/fishing.jpg" class="body-image">
     </div>
 </div>
 
@@ -94,17 +92,17 @@
                 Contact
             </b>
             <p>
-                WyattMacKayDawson@outlook.com
+                contact@wyattmackay.com
             </p>
-            <div style="display: inline-block; text-align: center;">
+            <div class="bottom-button-container">
                 <a href="https://www.linkedin.com/in/wyatt-mackay/">
-                    <img src="linkedin.png" alt="My LinkedIn" class="footer-image">
+                    <img src="assets/linkedin.png" alt="My LinkedIn" class="footer-icon">
                 </a>
                 <a href="https://www.github.com/wyattmackay/">
-                    <img src="github.png" alt="My GitHub" class="footer-image">
+                    <img src="assets/github.png" alt="My GitHub" class="footer-icon">
                 </a>
-                <a href="mailto:wyattmackaydawson@outlook.com">
-                    <img src="email.png" alt="My Email" class="footer-image">
+                <a href="mailto:contact@wyattmackay.com">
+                    <img src="assets/email.png" alt="My Email" class="footer-icon">
                 </a>
             </div>
         </div>
@@ -112,11 +110,13 @@
             <b class="footer-column-title">
                 Leave a Message
             </b>
+            <img src="assets/construction.png" class="footer-image">
         </div>
         <div class="footer-column">
             <b class="footer-column-title">
                 Boost my Ego
             </b>
+            <img src="assets/construction.png" class="footer-image">
         </div>
     </div>
 </footer>
