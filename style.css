@@ -1,12 +1,21 @@
 /* Defaults */
+
+@font-face {
+    font-family: inter;
+    src: url(fonts/Inter/Inter-VariableFont_opsz\,wght.ttf)
+}
+
 html {
     background-color: #232323;
     color: #EDEDED;
-    font-size: larger;
+    font-size: medium;
+    font-family: inter;
 }
 
 h1 {
     text-align: center;
+    font-size: xx-large;
+    
 }
 
 ul {
