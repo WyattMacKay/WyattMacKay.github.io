@@ -20,7 +20,7 @@ a {
 h1 {
     text-align: center;
     font-size: xx-large;
-    
+    margin-bottom: 0;
 }
 
 ul {
@@ -152,7 +152,9 @@ li {
     width: 65%;
     margin: 0 auto;
     display: flex;
+    flex-direction: column;
     text-align: center;
+    gap: 0px;
 }
 
 /* Footer */
