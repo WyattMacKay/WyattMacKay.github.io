@@ -256,17 +256,17 @@ li {
 .gallery {
     overflow: hidden;
     border: 5px solid #333333;
+    background-color: #1e1e1e;
     float: left;
     width: 180px;
     height: 200px;
     border-radius: 15px;
     display: flex;
     flex-direction: column;
-    background-color: #1e1e1e;
 }
 
 .gallery:hover {
-    border: 5px solid #333333;
+    background: #191919;
 }
 
 .gallery img {
@@ -278,10 +278,11 @@ li {
 }
 
 .desc {
+    border-bottom: 3px solid #333333;
     padding: 15px;
     padding-bottom: 5px;
     text-align: center;
-    border-bottom: 3px solid #333333;
+    text-decoration: none;
 }
 
 /*-----------------------------------------Scrollbar---------------------------------------------*/
