@@ -252,11 +252,11 @@ li {
 
 /* Gallery */
 .gallery-row {
-    margin-top: 10vh;
+    margin-top: 6vh;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    gap: 8vw;
+    gap: 6vw;
 }
 
 .gallery {
@@ -264,8 +264,8 @@ li {
     border: 5px solid #333333;
     background-color: #1e1e1e;
     float: left;
-    width: 180px;
-    height: 200px;
+    width: 20vw;
+    height: 23vw;
     border-radius: 15px;
     display: flex;
     flex-direction: column;
@@ -276,11 +276,10 @@ li {
 }
 
 .gallery img {
-    width: 100%;
-    min-height: 150px;
-    max-height: 150px;
+    width: 260px;
     justify-content: space-between;
     object-fit: cover;
+    display: block;
 }
 
 .desc {
@@ -289,6 +288,8 @@ li {
     padding-bottom: 5px;
     text-align: center;
     text-decoration: none;
+    font-weight: bold;
+    font-size: large;
 }
 
 /*-----------------------------------------Scrollbar---------------------------------------------*/
