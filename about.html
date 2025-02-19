@@ -1,0 +1,138 @@
+<!--
+    Make mobile friendly.
+    Add a page for the dropdown in Other.
+    Replace px and % with vh/vw
+-->
+<!--
+    I know how to make comments... You should give me a job!
+-->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <title>
+        Wyatt MacKay
+    </title>
+    <link rel="icon" href="assets/WMD.png">
+</head>
+
+<div class="header">
+    <a href="/" class="logo-button">
+        <img src="assets/WMD-White.png" alt="Home">
+    </a>
+    <div class="top-button-container">
+        <a href="/about.html" class="top-button">
+            About
+        </a>
+
+        <a href="/games.html" class="top-button">
+            Games
+        </a>
+
+        <div class="dropdown">
+            <div class="top-button drop-button">
+                Other
+            </div>
+            <div class="dropdown-content">
+                <a href="#">
+                    About This Website
+                </a>
+                <a href="#">
+                    Project Ideas
+                </a>
+                <a href="/playground.html">
+                    CSS Playground
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+<body>
+    <div class="body-column">
+        <h1>I Am...</h1>
+        <div class="body-row">
+            <img src="assets/me.png" class="body-image">
+            <div class="body-row-text-container">
+                <h2>A Student</h2>
+                <p>
+                    I'm a second year Computer Science student at the <b>University of New Brunswick</b>
+                    and a graduate from <b>Oromocto High School</b>. <br><br>
+                    Some notable courses I've taken are:
+                <ul>
+                    <li>
+                        <b>CS2043: Intro to Software Engineering</b> - A course made to simulate working
+                        as a Software Engineer in the real world; Working with a team and being AGILE to
+                        get a product to specifications and out on time.
+                    </li>
+                    <li>
+                        <b>CS2263: Systems Software Development</b> - A programming course in the C
+                        language. Strengthens the concepts of non-object-oriented procedural programming.
+                    </li>
+                    <li>
+                        <b>CS1103: Introduction to Databases</b> - A databases course using MySQL. Applying
+                        theory to real-world scenarios. Fundamentals of security, privacy, and maintanence
+                        for a database.
+                    </li>
+                </ul>
+                </p>
+            </div>
+        </div>
+        <div class="body-row">
+            <div class="body-row-text-container">
+                <h2>
+                    A Hobbyist
+                </h2>
+                <p>
+                    I aspire to be a software developer, but for now developing is just a hobby for me. I made
+                    this website in my free time, as well as the web games shown on my page.<br><br>
+                    Most of this is just my practice with Git, VSCode, and other tools. I enjoy developing
+                    in my free time. It keeps my mind busy and sharp. <br><br>
+                    I love to learn new things, so I tend to dabble in different languages and development
+                    tools. While I'm most proficient with Java and C++, I also know a bit of C#, JavaScript,
+                    Python, and clearly HTML & CSS.
+                </p>
+            </div>
+            <img src="assets/fishing.jpg" class="body-image">
+        </div>
+    </div>
+</body>
+
+<footer class="footer">
+    <div class="footer-body">
+        <div class="footer-column">
+            <b class="footer-column-title">
+                Contact
+            </b>
+            <p>
+                contact@wyattmackay.com
+            </p>
+            <div class="bottom-button-container">
+                <a href="https://www.linkedin.com/in/wyatt-mackay/">
+                    <img src="assets/linkedin.png" alt="My LinkedIn" class="footer-icon">
+                </a>
+                <a href="https://www.github.com/wyattmackay/">
+                    <img src="assets/github.png" alt="My GitHub" class="footer-icon">
+                </a>
+                <a href="mailto:contact@wyattmackay.com">
+                    <img src="assets/email.png" alt="My Email" class="footer-icon">
+                </a>
+            </div>
+        </div>
+        <div class="footer-column">
+            <b class="footer-column-title">
+                Leave a Message
+            </b>
+            <img src="assets/construction.png" class="footer-image">
+        </div>
+        <div class="footer-column">
+            <b class="footer-column-title">
+                Boost my Ego
+            </b>
+            <img src="assets/construction.png" class="footer-image">
+        </div>
+    </div>
+</footer>
+</html>

@@ -1,4 +1,4 @@
-/* Defaults */
+/*------------------------------------Defaults----------------------------------------------------*/
 
 @font-face {
     font-family: inter;
@@ -7,15 +7,20 @@
 
 html {
     background-color: #232323;
-    color: #EDEDED;
+    color: #ededed;
     font-size: medium;
     font-family: inter;
+}
+
+a {
+    text-decoration: none;
+    color: #ededed
 }
 
 h1 {
     text-align: center;
     font-size: xx-large;
-    
+    margin-bottom: 0;
 }
 
 ul {
@@ -31,8 +36,9 @@ li {
 }
 
 
+/*----------------------------------------Classes------------------------------------------------*/
 
-/* Classes */
+/* Header */
 .top-button {
     background-color: #333333; 
     color: #EDEDED;
@@ -82,6 +88,8 @@ li {
     border-bottom: 5px solid #333333;
 }
 
+
+/* Body */
 .play-button {
     background-color: #1e8323; 
     color: #EDEDED;
@@ -135,6 +143,21 @@ li {
     object-position: top;
 }
 
+.page-disclaimer {
+    background-color: #1e1e1e;
+    border: 5px solid #333333;
+    border-radius: var(--border-radius);
+    padding-left: 2%;
+    padding-right: 2%;
+    width: 65%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 0px;
+}
+
+/* Footer */
 .footer {
     width: 100%; 
     display: flex; 
@@ -189,7 +212,7 @@ li {
     padding: 10%;
     padding-left: 20%;
     padding-right: 20%
-  }
+}
 
 .dropdown {
     position: relative;
@@ -227,7 +250,49 @@ li {
 }
 
 
-/* Scrollbar */
+/* Gallery */
+.gallery-row {
+    margin-top: 6vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 6vw;
+}
+
+.gallery {
+    overflow: hidden;
+    border: 5px solid #333333;
+    background-color: #1e1e1e;
+    float: left;
+    width: 20vw;
+    height: 23vw;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.gallery:hover {
+    background: #191919;
+}
+
+.gallery img {
+    width: 260px;
+    justify-content: space-between;
+    object-fit: cover;
+    display: block;
+}
+
+.desc {
+    border-bottom: 3px solid #333333;
+    padding: 15px;
+    padding-bottom: 5px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: large;
+}
+
+/*-----------------------------------------Scrollbar---------------------------------------------*/
 ::-webkit-scrollbar {
     width: 10px;
   }
