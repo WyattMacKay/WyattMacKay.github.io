@@ -42,13 +42,61 @@
     </div>
 </div>
 
-
 <body>
-    <div class="body-column">
-        <h1>Welcome!</h1>
+<style>
+div.gallery {
+  margin: 10px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+  border-radius: 15px;
+}
 
-    </div>
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+  border-radius: 15px;
+  bottom: 0;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+</style>
+</head>
+<body>
+
+<div class="gallery">
+<div class="desc">Add a description of the image here</div>
+  <a target="_blank" href="img_5terre.jpg">
+    <img src="img_5terre.jpg" alt="Cinque Terre" width="600" height="400">
+  </a>
+  
+</div>
+
+<div class="gallery">
+<div class="desc">Add a description of the image here</div>
+  <a target="_blank" href="img_forest.jpg">
+    <img src="img_forest.jpg" alt="Forest" width="600" height="400">
+  </a>
+  
+</div>
+
+<div class="gallery">
+<div class="desc">Add a description of the image here</div>
+  <a target="_blank" href="img_lights.jpg">
+    <img src="img_lights.jpg" alt="Northern Lights" width="600" height="400">
+  </a>
+  
+</div>
 </body>
+
+
 
 
 <footer class="footer">
@@ -86,4 +134,3 @@
         </div>
     </div>
 </footer>
-</html>
