@@ -7,9 +7,14 @@
 
 html {
     background-color: #232323;
-    color: #EDEDED;
+    color: #ededed;
     font-size: medium;
     font-family: inter;
+}
+
+a {
+    text-decoration: none;
+    color: #ededed
 }
 
 h1 {
@@ -29,7 +34,6 @@ li {
 :root {
     --border-radius: 15px;
 }
-
 
 
 /*----------------------------------------Classes------------------------------------------------*/
