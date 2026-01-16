@@ -161,6 +161,10 @@ li {
     gap: 0px;
 }
 
+.justified {
+    text-align: justify;
+}
+
 /* Footer */
 .footer {
     width: 100%;
